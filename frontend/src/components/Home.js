@@ -9,7 +9,7 @@ function Home() {
         I specialize in creating seamless experiences using Django, React, PostgreSQL, and REST APIs.
         With a strong foundation in both frontend and backend development, I turn ideas into fully functional 
         digital solutions.</p>
-        <a href="/sudeep_python developer_resume.pdf" download className="download-btn">
+        <a href="/Sudeep_python_developer_resume.pdf" download className="download-btn">
         Download Resume
       </a>
     </section>
