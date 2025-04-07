@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+.project-details {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-details img {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.project-details h1 {
+  font-size: 30px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.project-details p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 20px;
+  max-width: 700px;
+}
+
+.link {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+  margin: 30px 0;
+}
+
+.link a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #007bff;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+.link a:hover {
+  border-bottom: 1px solid #007bff;
+}
+
+.project-details .btn-primary {
+  font-size: 16px;
+  text-decoration: none;
+  color: #007bff;
+  margin-top: 30px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+.project-details .btn-primary:hover {
+  border-bottom: 1px solid #007bff;
+}
